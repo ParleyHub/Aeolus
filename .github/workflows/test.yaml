@@ -1,0 +1,33 @@
+name: Test
+
+on:
+  push:
+    branches:
+      - 'master'
+    tags-ignore:
+      - '*.*.*'
+
+  pull_request:
+    branches:
+      - '*'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Test
+        run: |
+          yarn install --frozen-lockfile
+          yarn test-all
