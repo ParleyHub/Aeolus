@@ -1,3 +1,17 @@
-.aeolus-icon--info {
-  @apply text-blue-600;
+.aeolus-icon {
+  &--info {
+    @apply text-blue-600;
+  }
+
+  &--warning {
+    @apply text-orange-600;
+  }
+
+  &--error {
+    @apply text-red-600;
+  }
+
+  &--success {
+    @apply text-green-600;
+  }
 }
