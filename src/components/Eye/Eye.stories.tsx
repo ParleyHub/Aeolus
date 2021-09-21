@@ -1,15 +1,15 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { default as CloseIcon } from './Close';
+import { default as EyeIcon } from './Eye';
 
 export default {
-  title: 'Components/Close',
-  component: CloseIcon,
-} as ComponentMeta<typeof CloseIcon>;
+  title: 'Components/Eye',
+  component: EyeIcon,
+} as ComponentMeta<typeof EyeIcon>;
 
-const Template: ComponentStory<typeof CloseIcon> = (args) => (
-  <CloseIcon {...args} />
+const Template: ComponentStory<typeof EyeIcon> = (args) => (
+  <EyeIcon {...args} />
 );
 
 export const Default = Template.bind({});
