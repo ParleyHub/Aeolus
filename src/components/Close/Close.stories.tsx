@@ -12,7 +12,22 @@ const Template: ComponentStory<typeof CloseIcon> = (args) => (
   <CloseIcon {...args} />
 );
 
-export const Default = Template.bind({});
-Default.args = {
+export const Info = Template.bind({});
+Info.args = {
   variant: 'info',
+};
+
+export const Warning = Template.bind({});
+Warning.args = {
+  variant: 'warning',
+};
+
+export const Error = Template.bind({});
+Error.args = {
+  variant: 'error',
+};
+
+export const Success = Template.bind({});
+Success.args = {
+  variant: 'success',
 };
