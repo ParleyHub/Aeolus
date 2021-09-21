@@ -1,4 +1,4 @@
-export interface IIconProps extends HTMLSpanElement {
+export interface IIconProps extends HTMLElement {
   variant?: 'info' | 'success' | 'error' | 'warning' | 'default' | 'black';
   size?:
     | 'xs'
