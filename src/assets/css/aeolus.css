@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'aeolus';
+  src: url('../fonts/aeolus.eot?cxiyii');
+  src: url('../fonts/aeolus.eot?cxiyii#iefix') format('embedded-opentype'),
+    url('../fonts/aeolus.ttf?cxiyii') format('truetype'),
+    url('../fonts/aeolus.woff?cxiyii') format('woff'),
+    url('../fonts/aeolus.svg?cxiyii#aeolus') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='aeolus-icon-'],
+[class*=' aeolus-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'aeolus' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aeolus-icon-cancel:before {
+  content: '\e001';
+}
+.aeolus-icon-eye-close:before {
+  content: '\e002';
+}
+.aeolus-icon-eye:before {
+  content: '\e003';
+}

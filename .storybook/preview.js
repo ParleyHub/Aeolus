@@ -1,4 +1,5 @@
-import '../src/styles.scss';
+import '../src/styles/styles.scss';
+import '../src/assets/css/aeolus.css';
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
