@@ -1,4 +1,8 @@
 .aeolus-icon {
+  &--default {
+    @apply text-gray-600;
+  }
+
   &--info {
     @apply text-blue-600;
   }
@@ -13,5 +17,9 @@
 
   &--success {
     @apply text-green-600;
+  }
+
+  &--black {
+    @apply text-black;
   }
 }

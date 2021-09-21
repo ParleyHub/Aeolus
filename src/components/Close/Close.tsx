@@ -1,16 +1,15 @@
 import React, { ReactElement } from 'react';
 
 export interface IIconProps extends HTMLSpanElement {
-  variant?: 'info' | 'success' | 'error' | 'warning' | 'default';
-  size?: 'small' | 'medium' | 'large';
+  variant?: 'info' | 'success' | 'error' | 'warning' | 'default' | 'black';
 }
 
 const CloseIcon = ({
   variant = 'default',
-  size = 'medium',
+  className = '',
 }: IIconProps): ReactElement => (
   <span
-    className={`aeolus-icon-cancel aeolus-icon--${size} aeolus-icon--${variant}`}
+    className={`${className} aeolus-icon-cancel aeolus-icon--${variant}`}
   ></span>
 );
 
