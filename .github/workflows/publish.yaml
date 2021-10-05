@@ -41,7 +41,7 @@ jobs:
 
       - name: Publish
         run: |
-          echo ${{ secrets.NPM_REGISTRY }} >> .npmrc
+          echo ${{ secrets.NPM_REGISTRY_AEOLUS }} >> .npmrc
           npx google-artifactregistry-auth .npmrc
           npm publish
 
