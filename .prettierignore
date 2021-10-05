@@ -12,3 +12,5 @@ package-lock.json
 next.config.js
 postcss.config.js
 webpack.config.js
+
+*.md
