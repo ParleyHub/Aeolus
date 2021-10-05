@@ -1,3 +1,6 @@
+import './assets/css/aeolus.css';
+import './styles/styles.scss';
+
 export type { IIconProps } from './types';
 
 export { CloseIcon } from './components/Close';

@@ -1,4 +1,6 @@
-export interface IIconProps extends HTMLElement {
+import { HTMLAttributes } from 'react';
+
+export interface IIconProps extends HTMLAttributes<HTMLSpanElement> {
   variant?: 'info' | 'success' | 'error' | 'warning' | 'default' | 'black';
   size?:
     | 'xs'
