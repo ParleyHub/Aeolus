@@ -1,15 +1,9 @@
-import React, { ReactElement } from 'react';
-
-import type { IIconProps } from '../../types';
+import React, { ReactElement, HTMLAttributes } from 'react';
 
 const SpinnerIcon = ({
-  variant = 'default',
-  size = 'base',
   className = '',
-}: IIconProps): ReactElement => (
-  <span
-    className={`${className} aeolus-icon-spinner aeolus-icon--${variant} text-${size}`}
-  ></span>
+}: HTMLAttributes<HTMLSpanElement>): ReactElement => (
+  <span className={`${className} aeolus-icon-spinner`}></span>
 );
 
 export default SpinnerIcon;

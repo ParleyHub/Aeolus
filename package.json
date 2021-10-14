@@ -7,12 +7,6 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.15.5",
-    "@storybook/addon-actions": "^6.3.8",
-    "@storybook/addon-essentials": "^6.3.8",
-    "@storybook/addon-links": "^6.3.8",
-    "@storybook/builder-webpack5": "^6.3.8",
-    "@storybook/manager-webpack5": "^6.3.8",
-    "@storybook/react": "^6.3.8",
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "@typescript-eslint/eslint-plugin": "^4.31.0",
@@ -42,9 +36,7 @@
     "webpack-cli": "^4.8.0"
   },
   "scripts": {
-    "clean": "rm -rf lib storybook-static",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
+    "clean": "rm -rf lib",
     "build": "NODE_ENV=development webpack --env development",
     "build-prod": "NODE_ENV=production webpack --env production",
     "check-types": "tsc --pretty --noEmit",
