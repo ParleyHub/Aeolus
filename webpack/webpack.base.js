@@ -17,7 +17,7 @@ module.exports = {
   output: {
     filename: 'index.js',
     globalObject: 'this',
-    library: 'grace',
+    library: 'aeolus',
     libraryTarget: 'umd',
     path: path.resolve(__dirname, '../lib'),
     umdNamedDefine: true,
