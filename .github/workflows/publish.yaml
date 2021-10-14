@@ -61,11 +61,19 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Build Storybook
+      - name: Build Library
         run: |
           yarn clean
           yarn install --frozen-lockfile
-          yarn build-storybook
+          yarn build-prod
+
+      - name: Build Document
+        run: |
+          cd docs
+          yarn clean
+          yarn install --frozen-lockfile
+          yarn build
+          npx next export
 
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@master
@@ -76,5 +84,5 @@ jobs:
 
       - name: Deploy
         run: |
-          cd storybook-static
+          cd out
           gsutil cp -J -r * ${{ secrets.GCS_BUCKET }}
