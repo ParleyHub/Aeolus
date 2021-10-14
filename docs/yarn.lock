@@ -214,7 +214,7 @@
     fastq "^1.6.0"
 
 "@parley-hub/aeolus@file:..":
-  version "1.0.3"
+  version "2.0.2"
 
 "@rushstack/eslint-patch@^1.0.6":
   version "1.0.8"

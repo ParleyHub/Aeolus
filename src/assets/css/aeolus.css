@@ -76,3 +76,36 @@
 .aeolus-icon-heart-o:before {
   content: '\e912';
 }
+.aeolus-icon-phone:before {
+  content: '\e913';
+}
+.aeolus-icon-video-camera:before {
+  content: '\e914';
+}
+.aeolus-icon-trash:before {
+  content: '\e915';
+}
+.aeolus-icon-microphone:before {
+  content: '\e916';
+}
+.aeolus-icon-microphone-slash:before {
+  content: '\e917';
+}
+.aeolus-icon-link:before {
+  content: '\e918';
+}
+.aeolus-icon-power-off:before {
+  content: '\e919';
+}
+.aeolus-icon-paper-plane:before {
+  content: '\e920';
+}
+.aeolus-icon-pencil-square-o:before {
+  content: '\e921';
+}
+.aeolus-icon-volume-off:before {
+  content: '\e922';
+}
+.aeolus-icon-volume-up:before {
+  content: '\e923';
+}

@@ -16,6 +16,17 @@ import {
   HeartIcon,
   HeartOutlineIcon,
   SpinnerIcon,
+  LinkIcon,
+  MicrophoneIcon,
+  MicrophoneSlashIcon,
+  PaperPlaneIcon,
+  PencilSquareOutlineIcon,
+  PhoneIcon,
+  PowerOffIcon,
+  TrashIcon,
+  VideoCameraIcon,
+  VolumeOffIcon,
+  VolumeUpIcon,
 } from '@parley-hub/aeolus';
 
 const Home: NextPage = () => {
@@ -39,7 +50,7 @@ const Home: NextPage = () => {
 
       <main className="main py-8 bg-gray-50">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-12 gap-4">
+          <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-4">
             <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
               <ArrowDownIcon className="text-3xl" />
 
@@ -116,6 +127,72 @@ const Home: NextPage = () => {
               <SpinnerIcon className="text-3xl" />
 
               <span className="text-sm">Spinner</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <LinkIcon className="text-3xl" />
+
+              <span className="text-sm">Link</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <MicrophoneIcon className="text-3xl" />
+
+              <span className="text-sm">Microphone</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <MicrophoneSlashIcon className="text-3xl" />
+
+              <span className="text-sm">MicrophoneSlash</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <PaperPlaneIcon className="text-3xl" />
+
+              <span className="text-sm">PaperPlane</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <PencilSquareOutlineIcon className="text-3xl" />
+
+              <span className="text-sm">Pencil Square Outline</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <PhoneIcon className="text-3xl" />
+
+              <span className="text-sm">Phone</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <PowerOffIcon className="text-3xl" />
+
+              <span className="text-sm">PowerOff</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <TrashIcon className="text-3xl" />
+
+              <span className="text-sm">Trash</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <VideoCameraIcon className="text-3xl" />
+
+              <span className="text-sm">Video Camera</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <VolumeOffIcon className="text-3xl" />
+
+              <span className="text-sm">Volume Off</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+              <VolumeUpIcon className="text-3xl" />
+
+              <span className="text-sm">Volume Up</span>
             </div>
           </div>
         </div>
