@@ -81,8 +81,5 @@ jobs:
           yarn install --frozen-lockfile
           yarn build
           yarn export
-
-      - name: Deploy
-        run: |
           cd out
           gsutil cp -J -r * ${{ secrets.GCS_BUCKET }}
