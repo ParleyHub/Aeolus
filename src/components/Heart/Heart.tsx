@@ -1,9 +1,9 @@
 import React, { ReactElement, HTMLAttributes } from 'react';
 
-const CloseIcon = ({
+const HeartIcon = ({
   className = '',
 }: HTMLAttributes<HTMLSpanElement>): ReactElement => (
-  <span className={`${className} aeolus-icon-cancel`}></span>
+  <span className={`${className} aeolus-icon-heart`}></span>
 );
 
-export default CloseIcon;
+export default HeartIcon;
