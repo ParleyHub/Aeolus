@@ -1,15 +1,9 @@
-import React, { ReactElement } from 'react';
-
-import type { IIconProps } from '../../types';
+import React, { ReactElement, HTMLAttributes } from 'react';
 
 const ArrowDownIcon = ({
-  variant = 'default',
-  size = 'base',
   className = '',
-}: IIconProps): ReactElement => (
-  <span
-    className={`${className} aeolus-icon-arrow-down aeolus-icon--${variant} text-${size}`}
-  ></span>
+}: HTMLAttributes<HTMLSpanElement>): ReactElement => (
+  <span className={`${className} aeolus-icon-arrow-down`}></span>
 );
 
 export default ArrowDownIcon;

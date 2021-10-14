@@ -80,10 +80,8 @@ dist
 .pnp.\*
 lib/
 
-/example/node_modules
-/example/build
-
-storybook-static/
+/docs/node_modules
+/docs/build
 
 .DS_Store
 .npmrc

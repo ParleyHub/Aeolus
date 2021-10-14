@@ -1,5 +1,5 @@
 {
-  "name": "next",
+  "name": "docs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@parley-hub/aeolus": "file:../..",
+    "@parley-hub/aeolus": "file:../",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@types/react": "17.0.27",
+    "@types/react": "17.0.29",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2",
-    "typescript": "4.4.3"
+    "typescript": "4.4.4"
   }
 }
