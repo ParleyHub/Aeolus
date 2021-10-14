@@ -58,6 +58,13 @@ jobs:
         with:
           node-version: 16
 
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@master
+        with:
+          project_id: ${{ secrets.GKE_PROJECT }}
+          service_account_key: ${{ secrets.GKE_SA_KEY }}
+          export_default_credentials: true
+
       - name: Checkout Repository
         uses: actions/checkout@v2
 
@@ -73,14 +80,7 @@ jobs:
           yarn clean
           yarn install --frozen-lockfile
           yarn build
-          npx next export
-
-      - name: Set up Cloud SDK
-        uses: google-github-actions/setup-gcloud@master
-        with:
-          project_id: ${{ secrets.GKE_PROJECT }}
-          service_account_key: ${{ secrets.GKE_SA_KEY }}
-          export_default_credentials: true
+          yarn export
 
       - name: Deploy
         run: |
