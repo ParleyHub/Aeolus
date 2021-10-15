@@ -48,151 +48,151 @@ const Home: NextPage = () => {
         </Link>
       </header>
 
-      <main className="main py-8 bg-gray-50">
+      <main className="py-8 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-12 gap-4">
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <ArrowDownIcon className="text-3xl" />
 
-              <span className="text-sm">Arrow Down</span>
+              <span className="text-xs md:text-sm">Arrow Down</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <ArrowUpIcon className="text-3xl" />
 
-              <span className="text-sm">Arrow Up</span>
+              <span className="text-xs md:text-sm">Arrow Up</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <ArrowLeftIcon className="text-3xl" />
 
-              <span className="text-sm">Arrow Left</span>
+              <span className="text-xs md:text-sm">Arrow Left</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <ArrowRightIcon className="text-3xl" />
 
-              <span className="text-sm">Arrow Right</span>
+              <span className="text-xs md:text-sm">Arrow Right</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <BarsIcon className="text-3xl" />
 
-              <span className="text-sm">Bars</span>
+              <span className="text-xs md:text-sm">Bars</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <BellIcon className="text-3xl" />
 
-              <span className="text-sm">Bell</span>
+              <span className="text-xs md:text-sm">Bell</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <CancelIcon className="text-3xl" />
 
-              <span className="text-sm">Cancel</span>
+              <span className="text-xs md:text-sm">Cancel</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <CommentingIcon className="text-3xl" />
 
-              <span className="text-sm">Commenting</span>
+              <span className="text-xs md:text-sm">Commenting</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <EyeIcon className="text-3xl" />
 
-              <span className="text-sm">Eye</span>
+              <span className="text-xs md:text-sm">Eye</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <EyeCloseIcon className="text-3xl" />
 
-              <span className="text-sm">Eye Close</span>
+              <span className="text-xs md:text-sm">Eye Close</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <HeartIcon className="text-3xl" />
 
-              <span className="text-sm">Heart</span>
+              <span className="text-xs md:text-sm">Heart</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <HeartOutlineIcon className="text-3xl" />
 
-              <span className="text-sm">Heart Outline</span>
+              <span className="text-xs md:text-sm">Heart Outline</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <SpinnerIcon className="text-3xl" />
 
-              <span className="text-sm">Spinner</span>
+              <span className="text-xs md:text-sm">Spinner</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <LinkIcon className="text-3xl" />
 
-              <span className="text-sm">Link</span>
+              <span className="text-xs md:text-sm">Link</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <MicrophoneIcon className="text-3xl" />
 
-              <span className="text-sm">Microphone</span>
+              <span className="text-xs md:text-sm">Microphone</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <MicrophoneSlashIcon className="text-3xl" />
 
-              <span className="text-sm">MicrophoneSlash</span>
+              <span className="text-xs md:text-sm">MicrophoneSlash</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <PaperPlaneIcon className="text-3xl" />
 
-              <span className="text-sm">PaperPlane</span>
+              <span className="text-xs md:text-sm">PaperPlane</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <PencilSquareOutlineIcon className="text-3xl" />
 
-              <span className="text-sm">Pencil Square Outline</span>
+              <span className="text-xs md:text-sm">Pencil Square Outline</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <PhoneIcon className="text-3xl" />
 
-              <span className="text-sm">Phone</span>
+              <span className="text-xs md:text-sm">Phone</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <PowerOffIcon className="text-3xl" />
 
-              <span className="text-sm">PowerOff</span>
+              <span className="text-xs md:text-sm">PowerOff</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <TrashIcon className="text-3xl" />
 
-              <span className="text-sm">Trash</span>
+              <span className="text-xs md:text-sm">Trash</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <VideoCameraIcon className="text-3xl" />
 
-              <span className="text-sm">Video Camera</span>
+              <span className="text-xs md:text-sm">Video Camera</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <VolumeOffIcon className="text-3xl" />
 
-              <span className="text-sm">Volume Off</span>
+              <span className="text-xs md:text-sm">Volume Off</span>
             </div>
 
-            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100">
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
               <VolumeUpIcon className="text-3xl" />
 
-              <span className="text-sm">Volume Up</span>
+              <span className="text-xs md:text-sm">Volume Up</span>
             </div>
           </div>
         </div>
