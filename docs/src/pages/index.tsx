@@ -10,6 +10,7 @@ import {
   BarsIcon,
   BellIcon,
   CancelIcon,
+  CancelOutlineIcon,
   CommentingIcon,
   EyeIcon,
   EyeCloseIcon,
@@ -91,6 +92,12 @@ const Home: NextPage = () => {
               <CancelIcon className="text-3xl" />
 
               <span className="text-xs md:text-sm">Cancel</span>
+            </div>
+
+            <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
+              <CancelOutlineIcon className="text-3xl" />
+
+              <span className="text-xs md:text-sm">Cancel Outline</span>
             </div>
 
             <div className="rounded-lg h-32 transition duration-300 ease-in-out cursor-pointer flex flex-col justify-center items-center hover:bg-gray-100 text-center">
