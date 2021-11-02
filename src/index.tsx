@@ -7,6 +7,7 @@ export { ArrowRightIcon } from './components/ArrowRight';
 export { BarsIcon } from './components/Bars';
 export { BellIcon } from './components/Bell';
 export { CancelIcon } from './components/Cancel';
+export { CancelOutlineIcon } from './components/CancelOutline';
 export { CommentingIcon } from './components/Commenting';
 export { EyeIcon } from './components/Eye';
 export { EyeCloseIcon } from './components/EyeClose';
